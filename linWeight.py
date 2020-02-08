@@ -14,9 +14,9 @@ import numpy as np
 # Define data from experiment as NumPy arrays
 # A tip here would be to read this data from a file which is far more useful
 # because you can keep all your data separate from program files.
-x = np.array([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.55, 0.6, 0.62, 0.64, 0.66, 0.65, 0.68, 0.7, 0.75, 0.8])
-y = np.array([0, 0, 0, 0, 0, 0, 0.01, 0.8, 1.2, 1.9, 3.0, 2.5, 4.5, 7.2, 18.1, 43.1])
-yerror = np.array([0.1] * 16)
+x = np.array([2.85,2.50,2.13,1.79,1.65])
+y = np.array([7.50,6.38,5.71,5.10,4.79])
+yerror = np.array([0.01] * 5)
 
 # Determine weighting for each data point by using size of error bars
 w = 1 / (yerror * yerror)
